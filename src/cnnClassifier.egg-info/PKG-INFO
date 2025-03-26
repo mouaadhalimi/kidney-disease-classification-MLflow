@@ -1,0 +1,17 @@
+Metadata-Version: 2.2
+Name: cnnClassifier
+Version: 0.0.0
+Summary: python package for CNN app
+Home-page: https://github.com/Mmouaadhalimi/kidney-disease-classification-MLflow
+Author: Mmouaadhalimi
+Author-email: halimimouaad20@gmail.com
+Project-URL: bug Tracker, https://github.com/Mmouaadhalimi/kidney-disease-classification-MLflow/issues
+License-File: LICENSE
+Dynamic: author
+Dynamic: author-email
+Dynamic: description
+Dynamic: home-page
+Dynamic: project-url
+Dynamic: summary
+
+# kidney-disease-classification-MLflow
