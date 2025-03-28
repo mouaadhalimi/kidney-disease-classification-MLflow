@@ -190,3 +190,42 @@
 [2025-03-28 20:14:26,139: INFO: main:  >>>>>>>>>> stage Model Evaluation Stage  COMPETED <<<<<<<< 
 
  x===============x]
+[2025-03-28 20:32:06,810: INFO: main: >>>>>>>> stage Data Ingestion Stage   started <<<<<<<<<<]
+[2025-03-28 20:32:06,812: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-28 20:32:06,812: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-28 20:32:06,813: INFO: common: created directory at: artifacts]
+[2025-03-28 20:32:06,813: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-03-28 20:32:06,814: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1itZiOjuG9E4KevkdhpfJhlKY1rr2jFbv/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-03-28 20:33:28,750: INFO: data_ingestion: downloaded data from https://drive.google.com/file/d/1itZiOjuG9E4KevkdhpfJhlKY1rr2jFbv/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-03-28 20:33:29,147: INFO: main:  >>>>>>>>>> stage Data Ingestion Stage  COMPETED <<<<<<<< 
+
+ x===============x]
+[2025-03-28 20:33:29,147: INFO: main: >>>>>>>> stage Prepare Base Model Stage   started <<<<<<<<<<]
+[2025-03-28 20:33:29,148: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-28 20:33:29,149: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-28 20:33:29,149: INFO: common: created directory at: artifacts]
+[2025-03-28 20:33:29,150: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-03-28 20:33:29,341: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-03-28 20:33:29,419: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-03-28 20:33:29,461: INFO: main:  >>>>>>>>>> stage Prepare Base Model Stage  COMPETED <<<<<<<< 
+
+ x===============x]
+[2025-03-28 20:33:29,462: INFO: main: >>>>>>>> stage Training Data Stage   started <<<<<<<<<<]
+[2025-03-28 20:33:29,463: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-28 20:33:29,464: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-28 20:33:29,464: INFO: common: created directory at: artifacts]
+[2025-03-28 20:33:29,465: INFO: common: created directory at: artifacts\training]
+[2025-03-28 20:33:29,544: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-03-28 20:34:11,969: WARNING: saving_api: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. ]
+[2025-03-28 20:34:12,017: INFO: main:  >>>>>>>>>> stage Training Data Stage  COMPETED <<<<<<<< 
+
+ x===============x]
+[2025-03-28 20:34:12,018: INFO: main: >>>>>>>> stage Model Evaluation Stage   started <<<<<<<<<<]
+[2025-03-28 20:34:12,019: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2025-03-28 20:34:12,020: INFO: common: yaml file: params.yaml loaded successfully]
+[2025-03-28 20:34:12,020: INFO: common: created directory at: artifacts]
+[2025-03-28 20:34:12,102: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-03-28 20:34:15,732: INFO: common: json file saved at: scores.json]
+[2025-03-28 20:34:22,841: INFO: main:  >>>>>>>>>> stage Model Evaluation Stage  COMPETED <<<<<<<< 
+
+ x===============x]
